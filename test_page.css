@@ -9,6 +9,27 @@ body {
     position: relative;
 }
 
+.scroll-div::-webkit-scrollbar {
+    width: 5px;
+    /* height:50px; */
+  }
+
+  
+  /* Track */
+  .scroll-div::-webkit-scrollbar-track {
+   
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .scroll-div::-webkit-scrollbar-thumb {
+    background: #fca32b; 
+    border-radius: 10px;
+  }
+  
+
+
+
 /* GRID */
 
 .grid-container {
@@ -80,6 +101,7 @@ body {
     height: 500px;
     display: flex;
     justify-content: center;
+  
 
 }
 
@@ -844,6 +866,7 @@ height: 28px;
     position: relative;
     box-shadow: 2px 2px 150px #ededed;
     margin-right: 5px;
+    /* overflow: auto; */
 }
 
 .ac-activity {
@@ -853,8 +876,14 @@ height: 28px;
     /* margin-right: auto; */
     margin-right: 140px;
     /* border-bottom:1px solid gray ; */
+    
 }
 
+.scroll-div{
+    overflow: auto;
+    position: relative;
+    width: auto;
+}
 .border-line {
     width: 80%;
     margin-left: 15px;
@@ -864,10 +893,10 @@ height: 28px;
 
 }
 .ac-timeline{
-    top:85px;
-    left:34.5px;
+    top:12px;
+    left:12.5px;
     position: absolute;
-    height: 325px;
+    height: 650px;
     color: #848281;
     opacity: 0.1;
 }
@@ -877,6 +906,7 @@ height: 28px;
     /* background-color: blue; */
     display: flex;
     align-items: center;
+    margin: 5px 0px;
     /* justify-content: flex-start; */
 }
 .ac-part1-dot{
@@ -897,6 +927,10 @@ height: 28px;
       position: relative;
       color: #62abef;
   }
+  .ac-part5-dot{
+    position: relative;
+    color: #ef62ce;
+}
 .ac-part-dot-div1{
     height: 12px;
     width: 12px;
@@ -926,6 +960,12 @@ height: 28px;
     background-color:#62abef30;
 
 }
+
+.ac-color5{
+    background-color:#ef62ce30;
+
+}
+
 
 
 .ac-dot{
