@@ -774,7 +774,7 @@ height: 28px;
 .scroll-div{
     overflow: auto;
     position: relative;
-    width: auto;
+    width: 85%;
 }
 .border-line {
     width: 80%;
